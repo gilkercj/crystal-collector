@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Crystal Collector</h1>
+        <p id="rules">Try to match "Your Score" to the "Goal Score" by clicking on the crystals. Each crystal is worth a random value.
+            <br> Good Luck!</p>
+
+        <div id="score-container">
+            <div id="goal-wrapper">
+                <div>Goal Score:</div>
+                <div id="goal-number"></div>
+            </div>
+            <div id="score-wrapper">
+                <div>Your Score:</div>
+                <div id="user-number">0</div>
+            </div>
+        </div>
+
+        <button id="red-crystal" class="crystal" value="0">
+            <img src="assets/images/red-crystal.png" alt="">
+        </button>
+        <button id="blue-crystal" class="crystal" value="1">
+            <img src="assets/images/blue-crystal.png" alt="">
+        </button>
+        <button id="yellow-crystal" class="crystal" value="2">
+            <img src="assets/images/yellow-crystal.png" alt="">
+        </button>
+        <button id="green-crystal" class="crystal" value="3">
+            <img src="assets/images/green-crystal.png" alt="">
+        </button>
+
+        <div id="reset-area"></div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

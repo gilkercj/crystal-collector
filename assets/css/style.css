@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: slateblue;
+}
+
+h1{
+    width: 100%;
+}
+
+#container {
+    margin: 2% 10%;
+    padding: 2% 10%;
+    border: 4px solid turquoise;
+    border-radius: .75em;
+    background-color: azure;
+}
+
+#score-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    
+    
+}
+
+#goal-wrapper {
+    grid-column: 1/2;
+
+}
+
+#score-wrapper {
+    grid-column: 2/3;
+}
+
+button{
+    background-color: azure;
+    border: 0px;
+    margin: 10px 1%;
+}
+
+#reset {
+    padding: 5%;
+    width: 50%;
+    background-color: dodgerblue;
+    border: 4px solid blueviolet;
+    border-radius: .75em;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
